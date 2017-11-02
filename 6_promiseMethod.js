@@ -5,5 +5,5 @@ const request = require("request");
 // "https://api.chucknorris.io/jokes/random?category=food"
 // "http://ron-swanson-quotes.herokuapp.com/v2/quotes"
 // "http://www.colr.org/json/colors/random/7"
-// JSON.parse(body).results[0].geometry.location
-// JSON.parse(body).currently
+// const {lat,lng} = JSON.parse(res).results[0].geometry.location
+// const {temperature} = JSON.parse(body).currently
